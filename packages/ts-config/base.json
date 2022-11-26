@@ -4,14 +4,14 @@
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
-    "forceConsistentCastingInFileNames": true,
+    "forceConsistentCasingInFileNames": true,
     "inlineSources": false,
     "isolatedModules": true,
     "moduleResolution": "node",
     "noUnusedLocals": false,
-    "noUnusedParametrs": false,
-    "preserveMatchOutput": true,
-    "skipLibCheek": true,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
     "strict": true
   },
   "exclude": ["node_modules"]

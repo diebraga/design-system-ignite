@@ -1,18 +1,4 @@
 {
-  "compilerOptions": {
-    "composite": false,
-    "declaration": true,
-    "declarationMap": true,
-    "esModuleInterop": true,
-    "forceConsistentCastingInFileNames": true,
-    "inlineSources": false,
-    "isolatedModules": true,
-    "moduleResolution": "node",
-    "noUnusedLocals": false,
-    "noUnusedParametrs": false,
-    "preserveMatchOutput": true,
-    "skipLibCheek": true,
-    "strict": true
-  },
-  "exclude": ["node_modules"]
+  "extends": "@ignite-ui/ts-config/base.json",
+  "include": ["src"]
 }
