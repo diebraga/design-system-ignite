@@ -1,5 +1,5 @@
 {
-  "name": "@diebraga/tokens",
+  "name": "@diebraga/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,6 +13,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@diebraga/tokens": "*",
     "@diebraga/ts-config": "*",
     "tsup": "^6.5.0",
     "typescript": "^4.9.4"
