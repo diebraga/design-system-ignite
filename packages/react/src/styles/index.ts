@@ -1,17 +1,37 @@
-import { createStitches } from "@stitches/react";
+import {
+  colors,
+  fonts,
+  fontSizes,
+  fontWeights,
+  lineHeights,
+  radii,
+  space,
+} from '@diebraga/tokens'
+import { createStitches, defaultThemeMap } from '@stitches/react'
 
-export const { styled, css } = createStitches({
-  theme: {
-    colors: {
-      hiContrast: 'hsl(206,10%,5%)',
-      loContrast: 'white',
-
-      gray100: 'hsl(206,22%,99%)',
-      gray200: 'hsl(206,12%,97%)',
-      gray300: 'hsl(206,11%,92%)',
-      gray400: 'hsl(206,10%,84%)',
-      gray500: 'hsl(206,10%,76%)',
-      gray600: 'hsl(206,10%,44%)',
-    },
+export const {
+  styled,
+  css,
+  globalCss,
+  keyframes,
+  getCssText,
+  theme,
+  createTheme,
+  config,
+} = createStitches({
+  themeMap: {
+    ...defaultThemeMap,
+    height: 'space',
+    width: 'space',
   },
-});
+
+  theme: {
+    colors,
+    fontSizes,
+    fontWeights,
+    fonts,
+    lineHeights,
+    radii,
+    space,
+  },
+})

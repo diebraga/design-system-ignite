@@ -1,9 +1,9 @@
 import { styled } from './styles'
 
 const Button = styled('button', {
-  backgroundColor: '',
-  borderRadius: '',
-  fontSize: '13px',
+  backgroundColor: '$black',
+  borderRadius: '$full',
+  fontSize: 'large',
   padding: '10px 15px',
   '&:hover': {
     backgroundColor: '',
