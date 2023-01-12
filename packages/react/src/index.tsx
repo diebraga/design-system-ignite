@@ -1,6 +1,15 @@
-import { colors } from '@diebraga/tokens'
-console.log(colors)
+import { styled } from './styles'
+
+const Button = styled('button', {
+  backgroundColor: '',
+  borderRadius: '',
+  fontSize: '13px',
+  padding: '10px 15px',
+  '&:hover': {
+    backgroundColor: '',
+  },
+})
 
 export const App = () => {
-  return <h1 style={{ color: colors.ignite700 }}>HI</h1>
+  return <Button>HI</Button>
 }
