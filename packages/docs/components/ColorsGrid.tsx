@@ -1,5 +1,5 @@
 import React from 'react'
-import { colors } from '../../tokens/src/colors'
+import { colors } from '@diebraga/tokens'
 
 const ColorsGrid = () => {
   return Object.entries(colors).map(([key, color]) => {
