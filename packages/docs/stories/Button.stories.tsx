@@ -5,7 +5,7 @@ import type { ButtonProps } from '../../react/src'
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
+  title: 'Button',
   component: Button,
   args: {
     children: 'Send',
